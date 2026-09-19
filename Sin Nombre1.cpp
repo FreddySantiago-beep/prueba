@@ -15,15 +15,7 @@ float resultado(int numero)
 }
 int main()
 {
-	int opcion;
-	float n1, n2;
-	cout << "Elige una opcion\n";
-	cout << "1: suma 2: multiplicacion 3: division 4: resta\n";
-	cin >> opcion;
-	cout << "Ingresa dos numeros:\n";
-	cin >> n1;
-	cin >> n2; 
-	cout << "El resultado de la operacion es: "<< resultado(opcion, n1, n2);
+e la operacion es: "<< resultado(opcion, n1, n2);
 	return 0;
 	
 }
